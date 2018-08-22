@@ -1,7 +1,7 @@
 exports.up = function(knex, Promise) {
   return knex.schema.alterTable('contacts', table => {
     table.string('created_by').notNull();
-    table.foreign('created_by').references('username');
+    table.foreign('created_by').references('id');
   });
 };
 

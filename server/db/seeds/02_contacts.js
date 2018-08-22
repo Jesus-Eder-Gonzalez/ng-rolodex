@@ -14,7 +14,7 @@ exports.seed = function(knex, Promise) {
           twitter: 'johnd',
           instagram: 'johnd3',
           github: 'johnd',
-          created_by: 'test'
+          created_by: '9'
         },
         {
           name: 'Jan Doe',
@@ -25,7 +25,7 @@ exports.seed = function(knex, Promise) {
           twitter: 'jand',
           instagram: 'jand3',
           github: 'jand',
-          created_by: 'test'
+          created_by: '9'
         },
         {
           name: 'Albert Asimov',
@@ -36,7 +36,7 @@ exports.seed = function(knex, Promise) {
           twitter: 'alas',
           instagram: 'alas',
           github: 'alas',
-          created_by: 'test'
+          created_by: '9'
         },
         {
           name: 'Beatriz Baker',
@@ -47,7 +47,7 @@ exports.seed = function(knex, Promise) {
           twitter: 'beabaker',
           instagram: 'beabaker',
           github: 'bbaker',
-          created_by: 'test'
+          created_by: '9'
         },
         {
           name: 'Zelda Zimmerman',
@@ -58,7 +58,7 @@ exports.seed = function(knex, Promise) {
           twitter: 'zzman',
           instagram: 'zzman',
           github: 'zzman',
-          created_by: 'test'
+          created_by: '9'
         }
       ]);
     });
